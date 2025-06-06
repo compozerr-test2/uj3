@@ -4,7 +4,7 @@ interface Props {
    name: string;
 }
 
-const TemplateComponent = (props: Props) => {
+const Uj3Component = (props: Props) => {
    return (
       <div>
          Hello {props.name}
@@ -12,4 +12,4 @@ const TemplateComponent = (props: Props) => {
    );
 }
 
-export default TemplateComponent;
+export default Uj3Component;

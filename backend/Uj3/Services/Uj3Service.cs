@@ -1,11 +1,11 @@
-namespace Template.Services;
+namespace Uj3.Services;
 
-public interface ITemplateService
+public interface IUj3Service
 {
     string GetObfuscatedName(ReadOnlySpan<char> nonObfuscatedName);
 }
 
-public class TemplateService : ITemplateService
+public class Uj3Service : IUj3Service
 {
     public string GetObfuscatedName(ReadOnlySpan<char> nonObfuscatedName)
     {

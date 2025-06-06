@@ -1,15 +1,15 @@
 import React from "react"
 import { createFileRoute } from '@tanstack/react-router'
-import TemplateComponent from '../../template-component'
+import Uj3Component from '../../uj3-component'
 
-export const Route = createFileRoute('/template/')({
+export const Route = createFileRoute('/uj3/')({
   component: RouteComponent,
 })
 
 function RouteComponent() {
   return (
     <div>
-      <TemplateComponent name="World!" />
+      <Uj3Component name="World!" />
     </div>
   )
 }
